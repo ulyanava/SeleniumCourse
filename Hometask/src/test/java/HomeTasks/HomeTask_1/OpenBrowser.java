@@ -1,4 +1,4 @@
-package HomeTasks;
+package HomeTasks.HomeTask_1;
 
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * HomeTask1: Start Browser, Open Google.com and Close Browser
  */
-public class HomeTask1 {
+public class OpenBrowser {
     private WebDriver driver;
     private WebDriverWait wait;
 
