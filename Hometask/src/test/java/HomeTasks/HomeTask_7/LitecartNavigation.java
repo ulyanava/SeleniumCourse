@@ -1,6 +1,5 @@
 package HomeTasks.HomeTask_7;
 
-import com.google.common.base.Verify;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,18 +17,18 @@ public class LitecartNavigation {
   private WebDriver driver;
   private WebDriverWait wait;
 
-  public boolean isElementPresent (By locator){
+  public boolean isElementPresent(By locator) {
     try {
       driver.findElement(locator);
       return true;
-          }
-/*          catch (InvalidSelectorException ex){
-      throw ex;*/
-                    catch (NoSuchElementException ex){
+    } catch (InvalidSelectorException ex) {
+      throw ex;
+    } catch (NoSuchElementException ex) {
       return false;
-          }
+    }
 
   }
+
   @Before
   public void start() {
     driver = new ChromeDriver();
