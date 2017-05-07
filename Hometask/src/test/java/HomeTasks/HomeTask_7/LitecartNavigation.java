@@ -9,7 +9,6 @@ import org.openqa.selenium.InvalidSelectorException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -33,15 +32,9 @@ public class LitecartNavigation {
   public void start() {
     driver = new ChromeDriver();
     wait = new WebDriverWait(driver, 10);
-  }
-
-
-  @Test
-  public void menuCheckTest() {
     driver.get("http://localhost/litecart/admin");
     driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
     login("admin", "admin");
-    menuClicker();
   }
 
   private void login(String username, String password) {
@@ -49,6 +42,12 @@ public class LitecartNavigation {
     driver.findElement(By.name("password")).sendKeys(password);
     driver.findElement(By.xpath("*//button[@name='login']")).click();
     driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+  }
+
+
+  @Test
+  public void menuCheckTest() {
+    menuClicker();
   }
 
   private void menuClicker() {
