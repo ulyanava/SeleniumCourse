@@ -1,6 +1,5 @@
 package HomeTasks.Hometask_8;
 
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -49,6 +48,7 @@ public class CheckStikers {
     }
 
   }
+
   private void clickTab(String tabName) {
     WebElement page = driver.findElement(By.cssSelector("#content "));
     String cssSelector = "a[href *=" + tabName + "]";
@@ -61,6 +61,7 @@ public class CheckStikers {
     int allDucksQuantity = driver.findElements(By.cssSelector(cssLocatorAllDucks)).size();
     return allDucksQuantity;
   }
+//calculate quantity of all attributes of 'stickers' class for one duck
   public int getAllStikersForItem(String tabAllDucksId, int i) {
     String xPathSelector = "//div[@id='" + tabAllDucksId + "']/div/" + "div[" + i + "]";
     WebElement oneDuck = driver.findElement(By.xpath(xPathSelector));
