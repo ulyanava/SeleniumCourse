@@ -1,43 +1,21 @@
 package HomeTasks.Hometask_8;
 
 
+import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.InvalidSelectorException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 public class CheckStikers {
   private WebDriver driver;
   private WebDriverWait wait;
-
-  public boolean isElementPresent(By locator) {
-    try {
-      driver.findElement(locator);
-      return true;
-    } catch (InvalidSelectorException ex) {
-      throw ex;
-    } catch (NoSuchElementException ex) {
-      return false;
-    }
-  }
-  /*  public static boolean testik (List<WebElement>  allDucks){
-    int i = 0;
-    boolean haha=true;
-        while (haha == true) {
-     return haha= true
-        }
-    }
-    }
-*/
-
 
   @Before
   public void start() {
@@ -50,40 +28,50 @@ public class CheckStikers {
   public void CheckStikersTest() {
     driver.get("http://localhost/litecart/en/");
     driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
-    /*click tab1
-    WebElement form = driver.findElement(By.cssSelector("#content"));
-    WebElement tab1 = form.findElement(By.cssSelector("ul a[href *=campaign-products]"));*/
 
-    //click tab2
-    WebElement form = driver.findElement(By.cssSelector("#content"));
-    form.findElement(By.cssSelector("ul a[href *=popular-products]")).click();
-    //take all ducks
-    WebElement table = driver.findElement(By.cssSelector("#box-most-popular"));
-    List<WebElement> allDucks = table.findElements(By.cssSelector(".col-xs-halfs col-sm-thirds col-md-fourths col-lg-fifths"));
+    clickTab("campaign-products");
+    int allDucksQuantity = getAllDucksQuantity("box-campaigns");
+    for (int i = 1; i <= allDucksQuantity; i++) {
+      int allStikersQuantity = getAllStikersForItem("box-campaigns", i);
+      Assert.assertTrue(allStikersQuantity == 1);
+    }
+    clickTab("popular-products");
+    allDucksQuantity = getAllDucksQuantity("box-most-popular");
+    for (int i = 1; i <= allDucksQuantity; i++) {
+      int allStikersQuantity = getAllStikersForItem("box-most-popular", i);
+      Assert.assertTrue(allStikersQuantity == 1);
+    }
+    clickTab("latest-products");
+    allDucksQuantity = getAllDucksQuantity("box-latest-products");
+    for (int i = 1; i <= allDucksQuantity; i++) {
+      int allStikersQuantity = getAllStikersForItem("box-latest-products", i);
+      Assert.assertTrue(allStikersQuantity == 1);
+    }
 
+  }
+  private void clickTab(String tabName) {
+    WebElement page = driver.findElement(By.cssSelector("#content "));
+    String cssSelector = "a[href *=" + tabName + "]";
+    page.findElement(By.cssSelector(cssSelector)).click();
+  }
 
-    /*check stikers
-    div.image-wrapper div.stiker class $=^stiker
-  //  List<WebElement> ducks = table.findElements(By.cssSelector("#popular-products"));
+  //calculate quantity of all ducks under defined Tab
+  private int getAllDucksQuantity(String tabAllDucksId) {
+    String cssLocatorAllDucks = "div#" + tabAllDucksId + " " + "a.link[data-toggle=lightbox]";
+    int allDucksQuantity = driver.findElements(By.cssSelector(cssLocatorAllDucks)).size();
+    return allDucksQuantity;
+  }
+  public int getAllStikersForItem(String tabAllDucksId, int i) {
+    String xPathSelector = "//div[@id='" + tabAllDucksId + "']/div/" + "div[" + i + "]";
+    WebElement oneDuck = driver.findElement(By.xpath(xPathSelector));
+    int allStikersQuantity = oneDuck.findElements(By.xpath(".//div[contains(@class,'sticker')]")).size();
+    return allStikersQuantity;
+  }
 
-
-
-   //String allDucks = driver.findElements(By.cssSelector("div#box-most-popular"));
-
-    //click tab3
-    form.findElement(By.cssSelector("ul a[href *=latest-products]")).click();
-  }*/
-
-
-/*  @After
+  @After
   //logout and stop
   public void stop() {
-    driver.findElement(By.xpath("//*[@id=\"shortcuts\"]/a[5]/i")).click();
-    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     driver.quit();
   }
-*/
 
-
-  }
 }
