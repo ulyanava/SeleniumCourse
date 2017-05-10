@@ -65,9 +65,16 @@ public class AdminSorting {
     //check Countries sorting
   //  List<WebElement> listCountries = driver.findElements(By.cssSelector("form[name=countries_form] td:nth-child(5)"));
   //  Assert.assertTrue(checkAlphabetSorting(listCountries));
-  //  findNotNullZones();
+
     System.out.println("Id of country with Zone:"+" " +findNotNullZones());
-    driver.findElement(By.cssSelector("form[name=countries_form] tr:nth-child(i)")).click;
+
+    for(int i=0; i<findNotNullZones().size(); i++) {
+      String countryCssLocator = "form[name=countries_form] tr:nth-child(" + findNotNullZones().get(i)+") a";
+              driver.findElement(By.cssSelector(countryCssLocator)).click();
+              List<WebElement> listZones = driver.findElements(By.cssSelector("form > table td:nth-child(2)"));
+            Assert.assertTrue(checkAlphabetSorting(listZones));
+      driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+    }
   }
 
 
