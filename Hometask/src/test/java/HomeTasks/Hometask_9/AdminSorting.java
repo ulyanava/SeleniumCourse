@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import java.util.concurrent.TimeUnit;
@@ -28,15 +29,18 @@ public class AdminSorting {
     return true;
   }
 
-  public int findNotNullZones() {
+  public ArrayList<Integer> findNotNullZones() {
     List<WebElement> listZones = driver.findElements(By.cssSelector("form[name=countries_form] td:nth-child(6)"));
-    for (int i=1; i<listZones.size(); i++){
+    int i;
+        ArrayList<Integer> numberOfContry = new ArrayList<>();
+    for (i=1; i<listZones.size(); i++){
       String zoneValue = listZones.get(i).getText();
      if (zoneValue.equals("0")) {
-     }
-      return i;
+     }else{
+             numberOfContry.add(i+1);}
    }
-    return 0;
+
+    return numberOfContry;
   }
 
 
@@ -62,23 +66,9 @@ public class AdminSorting {
   //  List<WebElement> listCountries = driver.findElements(By.cssSelector("form[name=countries_form] td:nth-child(5)"));
   //  Assert.assertTrue(checkAlphabetSorting(listCountries));
   //  findNotNullZones();
-    System.out.println(findNotNullZones());
+    System.out.println("Id of country with Zone:"+" " +findNotNullZones());
+    driver.findElement(By.cssSelector("form[name=countries_form] tr:nth-child(i)")).click;
   }
-
-  /*private boolean checkSorting(List<WebElement> listCountries) {
-
-
-    for (int i = 1; i < listCountries.size(); i++) {
-      if (listCountries.get(i - 1).getText().compareTo(listCountries.get(i).getText()) > 0) {
-        return false;
-      }
-    }
-    return true;
-
-  }
-*/
-
-
 
 
 
