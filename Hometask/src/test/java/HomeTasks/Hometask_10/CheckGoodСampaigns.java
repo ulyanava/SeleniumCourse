@@ -141,8 +141,23 @@ public class CheckGoodСampaigns {
     String colorPrice = driver.findElement(By.cssSelector("div.row div.price-wrapper strong.campaign-price")).getCssValue("color");
     Assert.assertTrue(rgbRed(getRGB(colorPrice)));
   }
+  @Test
+  //check sale price is bold on Main Page
+//WORKS!
+  public void salePriceBoldMainPage() {
+    String price = driver.findElement(By.cssSelector("#box-campaigns > div > div:nth-child(1) strong.campaign-price")).getCssValue("font-weight");
+    System.out.println(price);
+    Assert.assertEquals("bold", price);
+  }
+  @Test
+  //check sale price is bold on Details Page
 
-
+  public void salePriceBoldDetailsPage() {
+    openGoodDetails();
+    String price = driver.findElement(By.cssSelector("div.row div.price-wrapper strong.campaign-price")).getCssValue("font-weight");
+    System.out.println(price);
+    Assert.assertEquals("bold", price);
+  }
     @After
   public void stop() {
 

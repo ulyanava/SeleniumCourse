@@ -111,8 +111,8 @@
       <file leaf-file-name="CheckGoodСampaigns.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_10/CheckGoodСampaigns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="137" column="15" lean-forward="false" selection-start-line="137" selection-start-column="15" selection-end-line="137" selection-end-column="15" />
+            <state relative-caret-position="249">
+              <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -558,85 +558,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckGoodСampaigns.salePriceColorDetailsPage">
-    <configuration default="false" name="CheckGoodСampaigns.regularPriceStyleMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Hometask_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
-      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
-      <option name="METHOD_NAME" value="regularPriceStyleMainPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CheckGoodСampaigns.regularPriceColorMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Hometask_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
-      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
-      <option name="METHOD_NAME" value="regularPriceColorMainPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CheckGoodСampaigns.regularPriceColorDetailsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Hometask_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
-      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
-      <option name="METHOD_NAME" value="regularPriceColorDetailsPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CheckGoodСampaigns">
     <configuration default="false" name="CheckGoodСampaigns.salePriceColorMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -677,6 +599,84 @@
       <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
       <option name="METHOD_NAME" value="salePriceColorDetailsPage" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckGoodСampaigns.salePriceBoldMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hometask_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
+      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
+      <option name="METHOD_NAME" value="salePriceBoldMainPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckGoodСampaigns.salePriceBoldDetailsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hometask_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
+      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
+      <option name="METHOD_NAME" value="salePriceBoldDetailsPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckGoodСampaigns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hometask_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
+      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.CheckGoodСampaigns" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
@@ -903,19 +903,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceStyleMainPage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceColorMainPage" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceColorDetailsPage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorMainPage" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorDetailsPage" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorMainPage" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorDetailsPage" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceBoldMainPage" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceBoldDetailsPage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorDetailsPage" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorMainPage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceColorDetailsPage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceColorMainPage" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.regularPriceStyleMainPage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceBoldDetailsPage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceBoldMainPage" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorDetailsPage" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckGoodСampaigns.salePriceColorMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -933,14 +933,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckGoodСampaigns_regularPriceColorDetailsPage - 2017.05.13 at 14h 46m 49s.xml">
-      <configuration name="CheckGoodСampaigns.regularPriceColorDetailsPage" configurationId="JUnit" />
+    <history-entry file="CheckGoodСampaigns - 2017.05.13 at 15h 22m 08s.xml">
+      <configuration name="CheckGoodСampaigns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckGoodСampaigns_regularPriceColorDetailsPage - 2017.05.13 at 14h 55m 53s.xml">
-      <configuration name="CheckGoodСampaigns.regularPriceColorDetailsPage" configurationId="JUnit" />
+    <history-entry file="CheckGoodСampaigns_salePriceBoldDetailsPage - 2017.05.13 at 15h 21m 10s.xml">
+      <configuration name="CheckGoodСampaigns.salePriceBoldDetailsPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckGoodСampaigns_regularPriceColorMainPage - 2017.05.13 at 14h 55m 42s.xml">
-      <configuration name="CheckGoodСampaigns.regularPriceColorMainPage" configurationId="JUnit" />
+    <history-entry file="CheckGoodСampaigns_salePriceBoldMainPage - 2017.05.13 at 15h 16m 37s.xml">
+      <configuration name="CheckGoodСampaigns.salePriceBoldMainPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckGoodСampaigns_salePriceBoldMainPage - 2017.05.13 at 15h 18m 44s.xml">
+      <configuration name="CheckGoodСampaigns.salePriceBoldMainPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckGoodСampaigns_salePriceBoldMainPage - 2017.05.13 at 15h 19m 30s.xml">
+      <configuration name="CheckGoodСampaigns.salePriceBoldMainPage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckGoodСampaigns_salePriceColorDetailsPage - 2017.05.13 at 15h 03m 57s.xml">
       <configuration name="CheckGoodСampaigns.salePriceColorDetailsPage" configurationId="JUnit" />
@@ -950,12 +956,6 @@
     </history-entry>
     <history-entry file="CheckGoodСampaigns_salePriceColorDetailsPage - 2017.05.13 at 15h 05m 04s.xml">
       <configuration name="CheckGoodСampaigns.salePriceColorDetailsPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckGoodСampaigns_salePriceColorMainPage - 2017.05.13 at 14h 59m 20s.xml">
-      <configuration name="CheckGoodСampaigns.salePriceColorMainPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckGoodСampaigns_salePriceColorMainPage - 2017.05.13 at 15h 00m 36s.xml">
-      <configuration name="CheckGoodСampaigns.salePriceColorMainPage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckGoodСampaigns_salePriceColorMainPage - 2017.05.13 at 15h 02m 22s.xml">
       <configuration name="CheckGoodСampaigns.salePriceColorMainPage" configurationId="JUnit" />
@@ -978,7 +978,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17391305" sideWeight="0.5043243" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36448598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49532712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1423,8 +1423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_10/CheckGoodСampaigns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="137" column="15" lean-forward="false" selection-start-line="137" selection-start-column="15" selection-end-line="137" selection-end-column="15" />
+        <state relative-caret-position="249">
+          <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
