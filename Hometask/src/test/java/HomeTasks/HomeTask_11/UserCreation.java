@@ -1,5 +1,6 @@
 package HomeTasks.HomeTask_11;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class UserCreation {
   private WebDriver driver;
@@ -19,13 +20,11 @@ public class UserCreation {
   String lastName = "Momoa";
   String address1 = "California";
   String postcode = "22014";
-  String country = "United States";
-  String email = "System.currentTimeMillis()" + "@gmail.com";
+  String email = System.currentTimeMillis() + "@gmail.com";
   String password = "12345";
   String company = "Epam";
   String address2 = "New York";
   String city = "Minsk";
-  String zone = "New York";
   String phone = "2608980";
 
 
@@ -46,15 +45,15 @@ public class UserCreation {
     fillAddress1(address1);
     fillAddress2(address2);
     fillPostcode(postcode);
-    //fillCountry(country);
+    fillCountry();
     fillEmail(email);
     fillPassword(password);
     fillConfirmPassword(password);
     fillCity(city);
- //   fillZone(zone);
     fillPhone(phone);
-    //submitCreateAcc();
-   // logout();
+    submitCreateAcc();
+    logout();
+    login(email, password);
   }
 
   public void fillTaxID(String taxID) {
@@ -85,39 +84,52 @@ public class UserCreation {
     driver.findElement(By.cssSelector("input[name=postcode]")).sendKeys(postcode);
   }
 
-  public void fillCountry(String country) {
-    driver.findElement(By.cssSelector("input[name=country_code]")).sendKeys(country);
-  }
+  public void fillCountry() {
+    driver.findElement(By.cssSelector("form select[name=country_code]")).click();
+   driver.findElement(By.xpath("//select[@name='country_code']/option[text()='United States']")).click();
+    }
 
   public void fillEmail(String email) {
-    driver.findElement(By.cssSelector("input[name=email]")).sendKeys(email);
+    driver.findElement(By.cssSelector("#box-create-account input[name=email]")).sendKeys(email);
   }
 
   public void fillPassword(String password) {
-    driver.findElement(By.cssSelector("input[name=password]")).sendKeys(password);
+    driver.findElement(By.cssSelector("#box-create-account input[name=password]")).sendKeys(password);
   }
 
   public void fillConfirmPassword(String password) {
-    driver.findElement(By.cssSelector("input[name=confirmed_password]")).sendKeys(password);
+    driver.findElement(By.cssSelector("#box-create-account input[name=confirmed_password]")).sendKeys(password);
   }
 
   public void fillCity(String city) {
     driver.findElement(By.cssSelector("input[name=city]")).sendKeys(city);
   }
 
- /* public void fillZone(String zone) {
-    driver.findElement(By.cssSelector("input[name=zone_code]")).sendKeys(zone);
-  }*/
-
   public void fillPhone(String phone) {
     driver.findElement(By.cssSelector("input[name=phone]")).sendKeys(phone);
   }
+
   public void submitCreateAcc() {
-    driver.findElement(By.cssSelector("input[name=create_account]")).click();
+    driver.findElement(By.cssSelector("button[name=create_account]")).click();
   }
+
   public void logout() {
     driver.findElement(By.cssSelector("#box-account ul [href *=logout]")).click();
 
   }
 
+  public void login(String email, String password) {
+    driver.findElement(By.cssSelector("#box-account-login input[name=email]")).sendKeys(email);
+    driver.findElement(By.cssSelector("#box-account-login input[name=password]")).sendKeys(password);
+    driver.findElement(By.cssSelector("#box-account-login button[name=login]")).click();
+  }
+
+  @After
+  //logout and stop
+  public void stop() {
+    driver.findElement(By.cssSelector("#box-account ul [href *=logout]")).click();
+    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+    driver.quit();
+  }
 }
+
