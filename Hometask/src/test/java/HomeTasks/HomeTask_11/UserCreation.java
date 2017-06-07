@@ -54,6 +54,7 @@ public class UserCreation {
     submitCreateAcc();
     logout();
     login(email, password);
+    logout();
   }
 
   public void fillTaxID(String taxID) {
@@ -125,10 +126,7 @@ public class UserCreation {
   }
 
   @After
-  //logout and stop
   public void stop() {
-    driver.findElement(By.cssSelector("#box-account ul [href *=logout]")).click();
-    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     driver.quit();
   }
 }

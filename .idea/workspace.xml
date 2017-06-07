@@ -63,14 +63,16 @@
       <file leaf-file-name="UserCreation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="100" column="59" lean-forward="true" selection-start-line="100" selection-start-column="59" selection-end-line="100" selection-end-column="59" />
+            <state relative-caret-position="189">
+              <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-                <element signature="e#3277#3278#0" expanded="true" />
-                <element signature="e#3312#3313#0" expanded="true" />
-                <element signature="e#3395#3396#0" expanded="true" />
+                <element signature="e#3210#3211#0" expanded="true" />
+                <element signature="e#3291#3292#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3409#3410#0" expanded="true" />
+                <element signature="e#3901#3902#0" expanded="true" />
+                <element signature="e#3924#3925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1084,9 +1086,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserCreation - 2017.06.07 at 07h 53m 52s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserCreation - 2017.06.07 at 07h 54m 30s.xml">
       <configuration name="UserCreation" configurationId="JUnit" />
     </history-entry>
@@ -1112,6 +1111,9 @@
       <configuration name="UserCreation" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserCreation - 2017.06.07 at 08h 00m 38s.xml">
+      <configuration name="UserCreation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCreation - 2017.06.07 at 08h 05m 31s.xml">
       <configuration name="UserCreation" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1526,14 +1528,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="100" column="59" lean-forward="true" selection-start-line="100" selection-start-column="59" selection-end-line="100" selection-end-column="59" />
+        <state relative-caret-position="189">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3210#3211#0" expanded="true" />
+            <element signature="e#3291#3292#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3901#3902#0" expanded="true" />
+            <element signature="e#3924#3925#0" expanded="true" />
           </folding>
         </state>
       </provider>
