@@ -127,6 +127,7 @@ public class UserCreation {
 
   @After
   public void stop() {
+    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     driver.quit();
   }
 }
