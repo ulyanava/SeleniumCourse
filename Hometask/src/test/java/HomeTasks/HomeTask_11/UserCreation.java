@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -87,8 +88,10 @@ public class UserCreation {
 
   public void fillCountry() {
     driver.findElement(By.cssSelector("form select[name=country_code]")).click();
-   driver.findElement(By.xpath("//select[@name='country_code']/option[text()='United States']")).click();
-    }
+   //driver.findElement(By.xpath("//select[@name='country_code']/option[text()='United States']")).click();
+    Select select = new Select(driver.findElement(By.xpath("//select[@name='country_code']")));
+    select.selectByVisibleText("United States");
+  }
 
   public void fillEmail(String email) {
     driver.findElement(By.cssSelector("#box-create-account input[name=email]")).sendKeys(email);
