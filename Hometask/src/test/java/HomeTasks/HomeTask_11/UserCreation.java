@@ -55,6 +55,7 @@ public class UserCreation {
     submitCreateAcc();
     logout();
     login(email, password);
+    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     logout();
   }
 
@@ -88,8 +89,8 @@ public class UserCreation {
 
   public void fillCountry() {
     driver.findElement(By.cssSelector("form select[name=country_code]")).click();
-   //driver.findElement(By.xpath("//select[@name='country_code']/option[text()='United States']")).click();
-    Select select = new Select(driver.findElement(By.xpath("//select[@name='country_code']")));
+  // driver.findElement(By.xpath("//select[@name='country_code']/option[text()='United States']")).click();
+   Select select = new Select(driver.findElement(By.xpath("//select[@name='country_code']")));
     select.selectByVisibleText("United States");
   }
 
