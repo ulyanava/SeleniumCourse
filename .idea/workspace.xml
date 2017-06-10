@@ -60,24 +60,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserCreation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserCreation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
+            <state relative-caret-position="208">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminAddGood.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_12/AdminAddGood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="186" column="19" lean-forward="true" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7353#7354#0" expanded="true" />
+                <element signature="e#7428#7429#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminSorting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_9/AdminSorting.java">
+      <file leaf-file-name="LitecartNavigation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_7/LitecartNavigation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="67" />
-              <folding />
+            <state relative-caret-position="540">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -482,6 +496,7 @@
         <option value="$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_9/CreateUserForm.java" />
         <option value="$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/CreateUserForm.java" />
         <option value="$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java" />
+        <option value="$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_12/AdminAddGood.java" />
       </list>
     </option>
   </component>
@@ -492,7 +507,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
@@ -505,215 +520,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeTask_11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask_10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask_9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeTasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hometask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
@@ -745,7 +552,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserCreation">
+  <component name="RunManager" selected="JUnit.AdminAddGood">
     <configuration default="false" name="GoodСampaignsFirefox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -798,32 +605,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="GoodСampaignsIE.regularPriceStyleDetailsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HomeTasks.Hometask_10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Hometask_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_10" />
-      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_10.GoodСampaignsIE" />
-      <option name="METHOD_NAME" value="regularPriceStyleDetailsPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="GoodСampaignsChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -862,6 +643,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="HomeTasks.HomeTask_11" />
       <option name="MAIN_CLASS_NAME" value="HomeTasks.HomeTask_11.UserCreation" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Hometask" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdminAddGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HomeTasks.Hometask_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hometask_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="HomeTasks.Hometask_12" />
+      <option name="MAIN_CLASS_NAME" value="HomeTasks.Hometask_12.AdminAddGood" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1092,17 +899,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GoodСampaignsFirefox" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.GoodСampaignsIE" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodСampaignsIE.regularPriceStyleDetailsPage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodСampaignsChrome" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserCreation" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodСampaignsChrome" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserCreation" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AdminAddGood" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserCreation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodСampaignsChrome" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodСampaignsFirefox" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodСampaignsIE" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodСampaignsIE.regularPriceStyleDetailsPage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdminAddGood" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserCreation" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodСampaignsChrome" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodСampaignsFirefox" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodСampaignsIE" />
       </list>
     </recent_temporary>
   </component>
@@ -1120,39 +927,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserCreation - 2017.06.07 at 07h 56m 24s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 22h 47m 47s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.07 at 07h 58m 41s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 22h 49m 47s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.07 at 07h 59m 19s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 22h 59m 53s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.07 at 07h 59m 39s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 03m 50s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.07 at 08h 00m 38s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 06m 00s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.07 at 08h 05m 31s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 06m 40s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.08 at 06h 50m 16s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 09m 50s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.08 at 06h 51m 55s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 13m 52s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.08 at 06h 55m 25s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 16m 10s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCreation - 2017.06.08 at 06h 57m 01s.xml">
-      <configuration name="UserCreation" configurationId="JUnit" />
+    <history-entry file="AdminAddGood - 2017.06.10 at 23h 17m 45s.xml">
+      <configuration name="AdminAddGood" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1056" extended-state="1" />
+    <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,20 +971,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17391305" sideWeight="0.5043243" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18925233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3171926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32317737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29978237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30607477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48247662" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1206,12 +1013,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1220,13 +1027,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hometask/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_7/LitecartNavigation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3618">
@@ -1460,13 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_7/LitecartNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_10/GoodСampaignsIE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1554,18 +1347,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_9/AdminSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="67" />
+        <state relative-caret-position="162">
+          <caret line="65" column="11" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="72" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_7/LitecartNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/HomeTask_11/UserCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
+        <state relative-caret-position="208">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hometask/src/test/java/HomeTasks/Hometask_12/AdminAddGood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="186" column="19" lean-forward="true" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7353#7354#0" expanded="true" />
+            <element signature="e#7428#7429#0" expanded="true" />
           </folding>
         </state>
       </provider>
