@@ -56,15 +56,19 @@ public class AdminAddGood {
   private void clickCatalog() {
     driver.findElement(By.cssSelector("ul#box-apps-menu > li:nth-child(2)")).click();
   }
+
   private void openInformation() {
-    driver.findElement(By.cssSelector(".nav a[href='#tab-information']")).click();
+    driver.findElement(By.cssSelector("div.tabs a[href='#tab-information']")).click();
   }
+
   private void openPrices() {
-    driver.findElement(By.cssSelector(".nav a[href='#tab-prices']")).click();
+    driver.findElement(By.cssSelector("div.tabs a[href='#tab-prices']")).click();
   }
+
   private void clickAddNewProduct() {
-    driver.findElement(By.cssSelector("ul.list-inline a[href*='edit_product']")).click();
+    driver.findElement(By.cssSelector("a.button[href*='edit_product']")).click();
   }
+
   private void clickCatalogCatalog() {
     driver.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=catalog&doc=catalog']")).click();
   }
@@ -76,34 +80,34 @@ public class AdminAddGood {
     String code = "code_" + System.currentTimeMillis();
     driver.findElement(By.cssSelector("input[name='code']")).sendKeys(code);
     driver.findElement(By.cssSelector("input[name='name[en]']")).sendKeys(name);
-    String skuName = "skuName_" + System.currentTimeMillis();
-    String gtinName = "gtinName_" + System.currentTimeMillis();
-    String taricName = "taricName_" + System.currentTimeMillis();
-    driver.findElement(By.cssSelector("input[name='sku']")).sendKeys(skuName);
-    driver.findElement(By.cssSelector("input[name='gtin']")).sendKeys(gtinName);
-    driver.findElement(By.cssSelector("input[name='taric']")).sendKeys(taricName);
+
 
     //Button Status
     driver.findElement(By.xpath("//div[@id='tab-general']//label[contains(text(),'Enabled')]")).click();
 
     //Select drop downs
-    //Default Category selectBox
-    Select select = new Select(driver.findElement(By.cssSelector("select[name='default_category_id']")));
-    select.selectByIndex(0);
     //*Delivery Status select*
-    select = new Select(driver.findElement(By.cssSelector("select[name='delivery_status_id']")));
-    select.selectByIndex(0);
+    Select select = new Select(driver.findElement(By.cssSelector("select[name='delivery_status_id']")));
+    select.selectByVisibleText("3-5 days");
     //*Sold Out Status select*
     select = new Select(driver.findElement(By.cssSelector("select[name='sold_out_status_id']")));
-    select.selectByIndex(0);
+    select.selectByVisibleText("Sold out");
 
-//Check whether checkbox is selected and click if not
-    //*Categories checkbox*
+    //*Categories checkbox--> Select value*
 
-    if (driver.findElement(By.cssSelector("div.checkbox:nth-child(1) input")).isSelected()) ;
+    if (driver.findElement(By.cssSelector("input[data-name='Rubber Ducks']")).isSelected()) ;
     else
-      driver.findElement(By.cssSelector("div.checkbox:nth-child(1) input")).click();
+      driver.findElement(By.cssSelector("input[data-name='Rubber Ducks']")).click();
 
+    //*Product groups checkbox --> Select all*
+
+    int checkboxesQuantity = driver.findElements(By.cssSelector("input[name='product_groups[]']")).size();
+    for (int i = 1; i <= checkboxesQuantity; i++) {
+
+      if (driver.findElement(By.cssSelector("input[name='product_groups[]'][value='1-" + i + "']")).isSelected()) ;
+      else
+        driver.findElement(By.cssSelector("input[name='product_groups[]'][value='1-" + i + "']")).click();
+    }
 
 //Date Fields
     driver.findElement(By.cssSelector("input[name='date_valid_from']")).sendKeys("01-01-2017");
@@ -115,32 +119,18 @@ public class AdminAddGood {
     driver.findElement(By.cssSelector("input[name='quantity']")).clear();
     driver.findElement(By.cssSelector("input[name='quantity']")).sendKeys("2");
     select = new Select(driver.findElement(By.cssSelector("select[name='quantity_unit_id']")));
-    select.selectByIndex(0);
-    //Weight*
-    driver.findElement(By.cssSelector("input[name='weight']")).clear();
-    driver.findElement(By.cssSelector("input[name='weight']")).sendKeys("1000");
-    select = new Select(driver.findElement(By.cssSelector("select[name='weight_class']")));
-    select.selectByValue("oz");
-    //*Width x Height x Length*
-    driver.findElement(By.cssSelector("input[name='dim_x']")).clear();
-    driver.findElement(By.cssSelector("input[name='dim_x']")).sendKeys("101");
-    driver.findElement(By.cssSelector("input[name='dim_y']")).clear();
-    driver.findElement(By.cssSelector("input[name='dim_y']")).sendKeys("102");
-    driver.findElement(By.cssSelector("input[name='dim_z']")).clear();
-    driver.findElement(By.cssSelector("input[name='dim_z']")).sendKeys("103");
-    select = new Select(driver.findElement(By.cssSelector("select[name='dim_class']")));
-    select.selectByValue("in");
+    select.selectByVisibleText("pcs");
+
 
 //Upload File
     String path = new File("src/test/java/HomeTasks/Hometask_12/good.jpg").getAbsolutePath();
     driver.findElement(By.cssSelector("input[name='new_images[]']")).sendKeys(path);
-
   }
 
   private void fillInformation() {
     //*Manufacturer*
     Select select = new Select(driver.findElement(By.cssSelector("select[name='manufacturer_id']")));
-    select.selectByIndex(0);
+    select.selectByVisibleText("ACME Corp.");
 //*Supplier*
     select = new Select(driver.findElement(By.cssSelector("select[name='supplier_id']")));
     select.selectByIndex(0);
@@ -152,8 +142,6 @@ public class AdminAddGood {
 //Description
     driver.findElement(By.cssSelector("div.trumbowyg-editor")).sendKeys("Description");
 
-    //*Attributes*
-    driver.findElement(By.cssSelector("textarea[name='attributes[en]']")).sendKeys("Attributes");
     //*Head Title*
     driver.findElement(By.cssSelector("input[name='head_title[en]']")).sendKeys("head title");
     //*Meta Description*
@@ -165,15 +153,16 @@ public class AdminAddGood {
     driver.findElement(By.cssSelector("input[name='purchase_price']")).clear();
     driver.findElement(By.cssSelector("input[name='purchase_price']")).sendKeys("200");
     Select select = new Select(driver.findElement(By.cssSelector("select[name='purchase_price_currency_code']")));
-    select.selectByIndex(2);
+    select.selectByValue("EUR");
 
     //*Tax Class
-    select = new Select(driver.findElement(By.cssSelector("#prices select[name='tax_class_id']")));
+    select = new Select(driver.findElement(By.cssSelector("table#table-prices select[name='tax_class_id']")));
     select.selectByIndex(0);
 
     //*Price Incl. Tax*
     driver.findElement(By.cssSelector("input[name='gross_prices[USD]']")).clear();
     driver.findElement(By.cssSelector("input[name='gross_prices[USD]']")).sendKeys("901");
+    driver.findElement(By.cssSelector("input[name='gross_prices[EUR]']")).clear();
     driver.findElement(By.cssSelector("input[name='gross_prices[EUR]']")).sendKeys("902");
 
   }
@@ -183,10 +172,10 @@ public class AdminAddGood {
   }
 
 
-@After
+  @After
   //logout and stop
   public void stop() {
-    driver.findElement(By.xpath("//*[@id=\"shortcuts\"]/a[5]/i")).click();
+    driver.findElement(By.cssSelector("div.header a[title='Logout']")).click();
     driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
     driver.quit();
   }
