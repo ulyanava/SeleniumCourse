@@ -69,14 +69,11 @@ public class Cart {
 
   public void deleteAllGoods() {
     while (driver.findElements(By.cssSelector("table.dataTable td.item")).size() > 1) {
-      if (driver.findElements(By.cssSelector("table.dataTable td.item")).size() > 1) {
         WebElement deleteButton = wait.until(presenceOfElementLocated(
                 By.cssSelector("form[name='cart_form'] button[name='remove_cart_item']")));
         driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
         wait.until(ExpectedConditions.stalenessOf(deleteButton));
-      }
-      driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
     }
-
+    driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
   }
 }
