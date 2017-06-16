@@ -13,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
 
 @SuppressWarnings("ALL")
@@ -66,14 +65,17 @@ public class Cart {
     return driver.findElements(By.cssSelector("select[name='options[Size]']")).size() > 0;
   }
 
+  public int getCartItems() {
+    int cartSize = driver.findElements(By.cssSelector("table.dataTable td.item")).size();
+    return cartSize;
+  }
 
   public void deleteAllGoods() {
-    while (driver.findElements(By.cssSelector("table.dataTable td.item")).size() > 1) {
-        WebElement deleteButton = wait.until(presenceOfElementLocated(
-                By.cssSelector("form[name='cart_form'] button[name='remove_cart_item']")));
-        driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
-        wait.until(ExpectedConditions.stalenessOf(deleteButton));
+
+    while (getCartItems() > 0) {
+      int cartSize = getCartItems();
+      driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
+      wait.until(ExpectedConditions.numberOfElementsToBeLessThan(By.cssSelector("table.dataTable td.item"), cartSize));
     }
-    driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
   }
 }
